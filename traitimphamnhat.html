@@ -47,17 +47,15 @@
             }
         }
         h1{
-            color: pink;
+            color: whitesmoke;
             text-align: center;
-            margin-top: 30px;
+            margin-top: absolute;
             font-size: 50px;
         }
-        footer{
-            color: pink;
-            text-align: center;
-            margin-top: 530px;
-            font-size: 50px;
+        audio{
+            margin-top: -500px;
         }
+        
     </style>
 </HEAD>
  
@@ -73,11 +71,11 @@
          */
         var settings = {
             particles: {
-                length: 3500, // maximum amount of particles
+                length: 5000, // maximum amount of particles
                 duration: 2.5, // particle duration in sec
                 velocity: 136, // particle velocity in pixels/sec
                 effect: -0.95, // play with this for a nice effect
-                size: 13, // particle size in pixels
+                size: 10, // particle size in pixels
             },
         };
  
@@ -279,7 +277,7 @@
                 }
                 context.closePath();
                 // create the fill
-                context.fillStyle = '#ea80b0';
+                context.fillStyle = '#B8002D';
                 context.fill();
                 // create the image
                 var image = new Image();
@@ -327,7 +325,9 @@
             }, 10);
         })(document.getElementById('pinkboard'));
     </script>
+<audio controls autoplay loop>
+    <source src="nhacvipvai.mp3" type="audio/mpeg">
+  </audio>
 </BODY>
  <h1>Trái tym to lớn của Phạm Nhật nè :3</h1>
- <footer>gửi tặng các bạn nè hihi</footer>
 </HTML>
